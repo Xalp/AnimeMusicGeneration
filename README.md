@@ -13,8 +13,8 @@ LSTM model to generate anime music.
 * ./example_output: An sample output, in .mid and .wav.
 ## Getting Started
 
-### Dependencies
-python library (install via pip): 
+### Dependencies(install via pip): 
+
 * music21: A toolkit for computer-aided musical analysis
 * piano-transcription-inference: Provide piano transcription inference, transcribe piano recordings to MIDI file
 * tensorflow
@@ -24,7 +24,8 @@ python library (install via pip):
 * IPython
 * sklearn
 * dimi2audio
-system package (install via package manager apt):
+
+### Dependencies(install via package manager apt):
 * lilypond: for displaying music notations
 * fluidSynth: interpret from MIDI signals and synthesis audio
 * ffmpeg: convert file format from MIDI to WAV and MP3 to MIDI
