@@ -44,6 +44,7 @@ LSTM model to generate anime music.
 
 ## Help
 
+Do not use this model for commercial purpose, as the music in the training dataset can be only used for studies.
 If you have any trouble running the code, you can set up an issue or email me at xalphinions@gmail.com.
 
 ## Authors
