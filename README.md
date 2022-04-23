@@ -4,8 +4,9 @@ LSTM model to generate anime music.
 
 ## Description
 
-* Piano_transcription_inference.ipynb: Translate normal .wav music to .mid MIDI Music.
+* piano_transcription_inference.ipynb: Translate normal .wav music to .mid MIDI Music.
 * music-generation-lstm-comic.ipynb: Provide training code and reuse pre-trained model to generate new music.
+* comic.zip: Training set
 * ./saves_comic/model200.h5: pre-trained model.
 * ./saves_comic/symb_comic.npy: Contains all the possible notes.
 * ./saves_comic/X_seeds_comic.npy: Contains random beginning of the music, used by the model as it needs some initial notes to continue with.
@@ -13,33 +14,37 @@ LSTM model to generate anime music.
 ## Getting Started
 
 ### Dependencies
+python library (install via pip): 
+* music21: A toolkit for computer-aided musical analysis
+* piano-transcription-inference: Provide piano transcription inference, transcribe piano recordings to MIDI file
+* tensorflow
+* pandas
+* numpy
+* seaborn
+* IPython
+* sklearn
+* dimi2audio
+system package (install via package manager apt):
+* lilypond: for displaying music notations
+* fluidSynth: interpret from MIDI signals and synthesis audio
+* ffmpeg: convert file format from MIDI to WAV and MP3 to MIDI
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
 
-### Installing
+### Generating Music
+* Download this rep
+* Open music-generation-lstm-comic.ipynb
+* Run the last four blocks(from the reloading of model) to generate new music.
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
-
-### Executing program
-
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
+### Training
+* Use piano_transcription_inference.ipynb to convert your .wav to .mid
+* You can also use the comic.zip as training set(our choice)
+* unzip the music to ./input/comic
+* Run music-generation-lstm-comic.ipynb
 
 ## Help
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+If you have any trouble running the code, you can set up an issue or email me at xalphinions@gmail.com.
 
 ## Authors
 
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+Deep Learning Music Generation Team
