@@ -2,6 +2,9 @@
 
 LSTM model to generate anime music.
 
+## Report
+View our report [here](Report.pdf)
+
 ## Description
 
 * piano_transcription_inference.ipynb: Translate normal .wav music to .mid MIDI Music.
