@@ -3,7 +3,7 @@
 LSTM model to generate anime music.
 
 ## Report
-View our report [here](report.pdf)
+View our report [here](Report.pdf)
 
 ## Description
 
